@@ -10,3 +10,10 @@ h1, h2, p, div, a, li {
 a {
     text-decoration: none;
 }
+
+header h1 a {
+    font-size: 62px; 
+    color: red; 
+    padding:65px 55px;
+}
+
