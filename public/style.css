@@ -1,1 +1,12 @@
-//hello
+body {
+    margin: 0; 
+    padding:0;
+}
+
+h1, h2, p, div, a, li {
+    font-family: "Helvetica", cursive, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
