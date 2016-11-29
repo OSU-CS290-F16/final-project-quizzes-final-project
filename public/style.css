@@ -3,12 +3,8 @@ body {
     padding:0;
 }
 
-h1, h2, p, div, a, li {
+h1, h2, p, div, a {
     font-family: "Helvetica", cursive, sans-serif;
-}
-
-a {
-    text-decoration: none;
 }
 
 header h1 a {
