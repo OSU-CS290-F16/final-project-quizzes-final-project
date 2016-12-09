@@ -58,17 +58,35 @@ nav {
   float: right;
 }
 
-.backdrop {
+main {
+  padding: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+#modal-backdrop {
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
-  right:0;
-  z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.5)
+  right: 0;
+  z-index: 500;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-.login-menu {
+#login-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1010;
+  overflow: scroll;
+}
+
+.modal-dialog {
   width: auto;
   max-width: 600px;
   min-width: 350px;
@@ -77,6 +95,27 @@ nav {
   background-color: white;
 }
 
-.hidden {
-  display: none;
+.modal-header {
+  posiiton: relative;
+  padding: 10px 20px;
+}
+
+.modal-header h3 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.modal-close-button {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 24px;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 20px;
 }
