@@ -4,11 +4,13 @@
     
           <img src="{{url}}" alt="Question 1 Image" width="585">
           <form>
-            <input type="radio" name="q1" value="{{value}}"> {{value}}<br>
-            //and so on for these:
-            //also add {{#if correct}} 
-            <input class="correct" type="radio" name="q1" value="Cady Heron"> Cady Heron<br>
-            <input type="radio" name="q1" value="Qaty Heron"> Qaty Heron<br>
-            <input type="radio" name="q1" value="Caty Heron"> Caty Heron<br>
+            {{#each answer}}
+            {{#if correct}} 
+            <input class="correct" type="radio" value="{{value}}">{{value}}<br>
+            {{/if}}
+            {{else}}
+            <input type="radio" name="q1" value="{{value}}">{{value}}<br>
+    
+            {{/each}}
           </form>
         </div>
