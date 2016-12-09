@@ -3,7 +3,7 @@
     "name":   "meangirls",
     "quizName": "How Well Do You Know \"Mean Girls\"?",
     "quizTag": "This quiz is so fetch.",
-    
+
     "questions": [
         { "question": "1. What is the correct spelling of Lindsay Lohan's character?",
           "url":  "images/quiz1/Q1q1.jpg",
@@ -14,7 +14,7 @@
                   {"value": "Qaty Heron" },
                   {"value": "Caty Heron"}
                 ]
-        
+
         },
         { "question": "2. Where do Janice and Damian say they're taking Lindsay Lohan when they first meet?",
           "url":  "images/quiz1/Q1q2.jpg",
@@ -25,7 +25,7 @@
                   {"value": "Gym class" },
                   {"value": "The picnic tables"}
                 ]
-        
+
         },
          { "question": "3. What reason does Coach Carr give his health class students for not having sex?",
           "url":  "images/quiz1/Q1q3.jpg",
@@ -36,9 +36,9 @@
                     "correct": "true"},
                   {"value": "You will go to Hell."}
                 ]
-        
+
         },
-         { "question": "4. Where does "Mean Girls" take place?",
+         { "question": "4. Where does \"Mean Girls\" take place?",
           "url":  "images/quiz1/Q1q4.jpg",
           "answer": [
                   {"value":  "Evanston, IL",
@@ -47,9 +47,9 @@
                   {"value": "Bergen County, NJ" },
                   {"value": "Cambridge, MA"}
                 ]
-        
+
         },
-         { "question": "5. Why is Gretchen Wieners' hair "so big"?",
+         { "question": "5. Why is Gretchen Wieners' hair \"so big\"?",
           "url":  "images/quiz1/Q1q5.jpg",
           "answer": [
                   {"value":  "To hide her puny head."},
@@ -58,7 +58,7 @@
                   {"value": "Because it’s full of secrets.",
                     "correct": "true"}
                 ]
-        
+
         },
          { "question": "6. Which of the following is NOT a cafeteria group listed by Janis?",
           "url":  "images/quiz1/Q1q6.jpg",
@@ -69,9 +69,9 @@
                   {"value": "Greenpeace Kids",
                     "correct": "true"}
                 ]
-        
+
         },
-         { "question": "7. Where does the word "fetch" supposedly come from?",
+         { "question": "7. Where does the word \"fetch\" supposedly come from?",
           "url":  "images/quiz1/Q1q7.jpg",
           "answer": [
                   {"value":  "It’s like slang from England.",
@@ -80,7 +80,7 @@
                   {"value": "It’s like Abercrombie without the i." },
                   {"value": "Just something made up by the Plastics."}
                 ]
-        
+
         },
          { "question": "8. Which of the following is NOT a rule of belonging to the Plastics?",
           "url":  "images/quiz1/Q1q8.jpg",
@@ -91,7 +91,7 @@
                   {"value": "You can only wear your hair in a ponytail once a week." },
                   {"value": "You can’t wear a tank top two days in a row."}
                 ]
-        
+
         },
          { "question": "9. What is Ms. Norbury's second job?",
           "url":  "images/quiz1/Q1q9.jpg",
@@ -102,7 +102,7 @@
                     "correct": "true"},
                   {"value": "Greeter at Sbarro"}
                 ]
-        
+
         },
          { "question": "10. What is Karen's Halloween Costume?",
           "url":  "images/quiz1/Q1q10.jpg",
@@ -113,7 +113,7 @@
                   {"value": "A mouse",
                     "correct": "true"}
                 ]
-        
+
         },
          { "question": "11. Why does Cady have a supply of Kalteen bars?",
           "url":  "images/quiz1/Q1q11.jpg",
@@ -124,7 +124,7 @@
                   {"value": "Her mom loves these Swedish candy bars because they look healthy." },
                   {"value": "She used to eat them every day in Africa until they gave her really bad acne."}
                 ]
-        
+
         },
          { "question": "12. What does Janice say about the perfume Regina gave Cady?",
           "url":  "images/quiz1/Q1q12.jpg",
@@ -135,7 +135,7 @@
                   "correct": "true"},
                   {"value": "So that's what slut smells like."}
                 ]
-        
+
         },
          { "question": "13. What magical quality to Karen's breasts possess?",
           "url":  "images/quiz1/Q1q13.jpg",
@@ -146,7 +146,7 @@
                   {"value": "They can get her into clubs." },
                   {"value": "They have no feeling in them."}
                 ]
-        
+
         },
          { "question": "14. What is Cady's contribution to the Burn Book?",
           "url":  "images/quiz1/Q1q14.jpg",
@@ -157,7 +157,7 @@
                     "correct":"true"},
                   {"value": "She says Ms. Norbury is a hooker."}
                 ]
-        
+
         },
          { "question": "15. How many candy cane grams goes Glen Coco get?",
           "url":  "images/quiz1/Q1q15.jpg",
@@ -168,7 +168,7 @@
                   {"value": "6" },
                   {"value": "3"}
                 ]
-        
+
         },
          { "question": "16. What did Gretchen's father invent?",
           "url":  "images/quiz1/Q1q16.jpg",
@@ -179,7 +179,7 @@
                   {"value": "Toaster Studel",
                   "correct":"true"}
                 ]
-        
+
         },
          { "question": "17. What kind of dance comes near the end of the movie?",
           "url":  "images/quiz1/Q1q17.jpg",
@@ -190,13 +190,13 @@
                   {"value": "Homecoming" },
                   {"value": "Spring Formal"}
                 ]
-        
+
         }
-        
-  
+
+
     ] //questions
-    
-    
+
+
     } //meangirls
-    
+
  }

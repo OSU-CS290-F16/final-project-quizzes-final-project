@@ -20,28 +20,3 @@ function clickSubmit(){
     }
   }
 }
-
-function checkAns() {
-  console.log('clicked!');
-  var x = document.querySelectorAll('.correct');
-  for (var i = 0; i < x.length; i++){
-    //turn correct answer green
-    console.log('turn green');
-    if (x[i].checked == false){
-      //if incorrect answer selected, turn value red by adding css class "turn-red"
-      console.log(x[i], 'turn red');
-    }
-  }
-}
-
-function checkAns() {
-
-
-  var x = document.querySelectorAll('.correct');
-  for (var i = 0; i < x.length; i++){
-    if (x[i].parentNode.value != x[i]){
-      //turn value red-- by adding css class "turn-red"
-    }
-    //always turn correct answer green--by adding css class "turn-green"
-  }
-}
