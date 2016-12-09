@@ -7,23 +7,11 @@
 
 
       <main>
-        <h2>How Well Do You Know "Mean Girls"?</h2>  <-- {{quizName}}
-        <p>This quiz is so fetch.</p>   <-- {{quizTag}}
+        <h2>{{quizName}}</h2>
+        <p>{{quizTag}}</p>
 
-    {{#each question}}
+    {{#each questions}}
         {{> questionPartial}} 
-        
-        //Will be like this:
-        <div class = "question">
-          <h3>1. What is the correct spelling of Lindsay Lohan's character?</h3>
-          <img src="images/quiz1/Q1q1.jpg" alt="Question 1 Image" width="585">
-          <form>
-            <input type="radio" name="q1" value="Katy Herron"> Katy Herron<br>
-            <input class="correct" type="radio" name="q1" value="Cady Heron"> Cady Heron<br>
-            <input type="radio" name="q1" value="Qaty Heron"> Qaty Heron<br>
-            <input type="radio" name="q1" value="Caty Heron"> Caty Heron<br>
-          </form>
-        </div>
     {{/each}}
       
 
