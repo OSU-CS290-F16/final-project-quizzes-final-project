@@ -1,0 +1,35 @@
+<!-- This is the partial html for the header used on each BeavFeed page -->
+<header>
+
+  <h1><a href="/">BeavFeed</a></h1>
+  <!-- insert circles here if we want them -->
+
+  <nav>
+    <ul class="navbar-list">
+      <li class="navbar-item"><a href="/">Home</a></li>
+      <li class="navbar-item"><a href="#">About</a></li>
+      {{#userName}}
+        <li class="navbar-item navbar-menu navbar-right">
+          <a href="#">{{userName}}</a>
+          <ul class="navbar-menu-list">
+            <!-- a user page will go here: <li><a href="/USERNAME">My Page</a></li> -->
+            <li><a href="/">Logout</a></li>
+          </ul>
+        </li>
+      {{else}}
+        <!--
+          login button will bring up a menu over the page for the user
+          to enter their username (JS function). HTML for this is below
+        -->
+        <li class="navbar-item navbar-right login-button">Login</li>
+      {{/if}}
+    </ul>
+  </nav>
+
+  <div class="login-menu">
+    <h2>Log In</h2>
+    <input type="text" placeholder="UserName"></input>
+    <br>
+    <button type-"button">Log In</button>
+
+</header>
