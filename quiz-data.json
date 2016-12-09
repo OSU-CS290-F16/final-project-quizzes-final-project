@@ -38,7 +38,7 @@
                 ]
         
         },
-         { "question": "4. Where does "Mean Girls" take place?",
+         { "question": "4. Where does \"Mean Girls\" take place?",
           "url":  "images/quiz1/Q1q4.jpg",
           "answer": [
                   {"value":  "Evanston, IL",
@@ -49,7 +49,7 @@
                 ]
         
         },
-         { "question": "5. Why is Gretchen Wieners' hair "so big"?",
+         { "question": "5. Why is Gretchen Wieners' hair \"so big\"?",
           "url":  "images/quiz1/Q1q5.jpg",
           "answer": [
                   {"value":  "To hide her puny head."},
@@ -71,7 +71,7 @@
                 ]
         
         },
-         { "question": "7. Where does the word "fetch" supposedly come from?",
+         { "question": "7. Where does the word \"fetch\" supposedly come from?",
           "url":  "images/quiz1/Q1q7.jpg",
           "answer": [
                   {"value":  "It’s like slang from England.",
