@@ -21,38 +21,23 @@
           <ul class="navbar-list">
             <li class="navbar-item"><a href="/">Home</a></li>
             <li class="navbar-item"><a href="#">About</a></li>
-            <li class="navbar-item navbar-right login-button">Login</li>
+            <li class="navbar-item navbar-menu navbar-right">
+              <a href="#">{{userName}}</a>
+              <ul class="navbar-menu-list hidden">
+                <!-- a user page will go here: <li><a href="/USERNAME">My Page</a></li> -->
+                <li><a href="/">Logout</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
 
       </header>
 
-      <div id="modal-backdrop" class="hidden"></div>
-
-      <div id="Login-modal" class="hidden">
-        <div class="modal-dialog">
-
-          <div class="modal-header">
-            <h3>Log In</h3>
-            <button type="button" class="modal-close-button">x</button>
-          </div>
-
-          <div class="modal-body">
-            <div class="login-username-input">
-              <input type="text" placeholder="UserName"></input>
-            </div>
-            <button type="button" class="login-submit-button">Log In</button>
-          </div>
-
-        </div>
-
-      </div>
-
       <main>
         <h2>How Well Do You Know "Mean Girls"?</h2>
         <p>This quiz is so fetch.</p>
 
-        <div class = "question">
+              <div class = "question">
           <h3>1. What is the correct spelling of Lindsay Lohan's character?</h3>
           <img src="images/quiz1/Q1q1.jpg" alt="Question 1 Image" width="585">
           <form>
@@ -242,7 +227,31 @@
         <div>
           <button type="button" class="submit-button">Submit!</button>
         </div>
+    </main>
 
+
+
+        <div id="login-modal" class="hidden">
+          <div class="modal-dialog">
+
+            <div class="modal-header">
+              <h3>Log In</h3>
+              <button type="button" class="modal-close-button">&times;</button>
+            </div>
+
+            <div class="modal-body">
+              <div class="login-input-element required">
+                <input type="text" placeholder="UserName" id="login-username">
+              </div>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="modal-cancel-button">Cancel</button>
+              <button type="button" class="modal-accept-button">Login</button>
+            </div>
+
+          </div>
+        </div>
 
   </body>
 
