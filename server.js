@@ -13,6 +13,13 @@ app.use(express.static(path.join(__dirname, 'public')));
   res.send('The server is listening!')
 }); */
 
+//Change this depending on what needed 
+app.get('/', function (req, res) {
+  res.render('index-page', {
+    title: 'BeavFeed -- Homepage'
+  });
+});
+
 // Listen on the specified port.
 app.listen(port, function () {
   console.log("== Listening on port", port);
