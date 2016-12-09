@@ -25,15 +25,27 @@
           </ul>
         </nav>
 
-        <div class="login-menu hidden">
-          <h2>Log In</h2>
-          <input type="text" placeholder="UserName"></input>
-          <br>
-          <button type-"button">Log In</button>
-        </div>
-        <div class="backdrop hidden"></div>
-
       </header>
+
+      <div id="modal-backdrop" class="hidden"></div>
+      <div id="Login-modal" class="hidden">
+        <div class="modal-dialog">
+
+          <div class="modal-header">
+            <h3>Log In</h3>
+            <button type="button" class="modal-close-button">x</button>
+          </div>
+
+          <div class="modal-body">
+            <div class="login-username-input">
+              <input type="text" placeholder="UserName"></input>
+            </div>
+            <button type="button" class="login-submit-button">Log In</button>
+
+        </div>
+
+      </div>
+
       <main>
         <h2>How Well Do You Know "Mean Girls"?</h2>
         <p>This quiz is so fetch.</p>
