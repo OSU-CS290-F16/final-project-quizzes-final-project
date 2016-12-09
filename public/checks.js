@@ -3,9 +3,17 @@
 //if answer is incorrect, highlight in red
 //display score at the bottom of the page
 
+var submit = getElementsByClassName('submit-button')
+submit[1].addEventListener('click', 'checkAns')
+
 function checkAns() {
-  
-  
-  
-  
+
+
+  var x = document.querySelectorAll('.correct');
+  for (var i = 0; i < x.length; i++){
+    if (x[i].parentNode.value != x[i]){
+      //turn value red-- by adding css class "turn-red"
+    }
+    //always turn correct answer green--by adding css class "turn-green"
+  }
 }
