@@ -26,6 +26,10 @@ document.getElementById('login-button').addEventListener('click', displayModal);
    //take value and put into json file
    var x = document.getElementById('login-username');
    console.log(x.value);
+   var username = x.value;
+   //
+   // ADD USERNAME TO JSON FILE-- {user: {"username":"USERNAME"}}
+   //
  }
 
  document.getElementsByClassName('modal-accept-button')[0].addEventListener('click', handleLogin);
