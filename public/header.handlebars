@@ -11,7 +11,7 @@
       {{#if userName}}
         <li class="navbar-item navbar-menu navbar-right">
           <a href="/{{username}}">{{userName}}</a>
-          <ul class="navbar-menu-list hidden">
+          <ul id="navbar-menu-list" class="navbar-menu-list hidden">
             <li><a href="/">Logout</a></li>
           </ul>
         </li>
@@ -20,7 +20,7 @@
           login button will bring up a menu over the page for the user
           to enter their username (JS function). HTML for this is below
         -->
-        <li class="navbar-item navbar-right login-button">Login</li>
+        <li id="login-button" class="navbar-item navbar-right login-button">Login</li>
       {{/if}}
     </ul>
   </nav>
