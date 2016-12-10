@@ -2,22 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>BeavFeed -- Your Page {{name}}</title>
+    <title>BeavFeed -- Your Page {{username}}</title>
     <link rel="stylesheet" href="/style.css">
   </head>
   <body>
-    <header>
-      <h1>{{name}}</h1>
-    </header>
+
     <main>
-      <div class="person">
+      <h2>{{user.username}}</h2>
+      {{#each quiz}}
         <p>
-          Job: {{job}}
+          Quiz: {{quizName}}
+          <br>
+          Score: {{score}}
         </p>
-        <p>
-          Age: {{age}}
-        </p>
-      </div>
+      {{/each}}
     </main>
   </body>
 </html>

@@ -1,0 +1,9 @@
+{"user":[
+  {"username":"UserName"},
+  {"quiz": [
+    {"quizName":"Sample Quiz",
+      "score":"95%"},
+    {"quizName":"Another Sample",
+      "score":"26%"}
+    ]}
+  ]}
